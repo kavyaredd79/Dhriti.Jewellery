@@ -1,0 +1,10 @@
+export {default as About} from "./About";
+export {default as Cart} from "./Cart";
+export {default as Error} from "./Error";
+export {default as Home} from "./Home"
+export {default as LandingPage} from "./LandingPage";
+export {default as Products} from "./Products";
+export {default as SingleProduct} from "./SingleProduct";
+export {default as CheckOut} from "./CheckOut"
+export {default as PrivacyPolicy} from "./PrivacyPolicy";
+export {default as Faq} from "./Faq"
