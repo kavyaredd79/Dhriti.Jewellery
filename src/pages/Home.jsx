@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import Subscribe from './Subscribe'
 import Header from '../components/Header'
-import { Search, User, ShoppingBag } from "lucide-react";
+import { Search, User, ShoppingBag ,Heart} from "lucide-react";
 import logo from "../assets/DhritiLogo.png"
 import { useNavigate } from "react-router-dom";
 const Home = () => {
@@ -45,6 +45,7 @@ const Home = () => {
 
       <div className="flex items-center gap-5">
         <Search className="w-5 h-5 cursor-pointer hover:text-white" />
+        <Heart className="w-5 h-5 cursor-pointer hover:text-white" />
         <ShoppingBag className="w-5 h-5 cursor-pointer hover:text-white" />
       </div>
     </nav>

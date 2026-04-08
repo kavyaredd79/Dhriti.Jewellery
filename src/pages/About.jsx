@@ -1,25 +1,24 @@
-import React from 'react'
-import { Truck, Plane, Package, CreditCard,BadgeCheck } from "lucide-react";
+import React from "react";
+import { Truck, Plane, Package, CreditCard, BadgeCheck } from "lucide-react";
 // import img1 from "../assets/img1.jpg"
 const About = () => {
   return (
     <section className="bg-[#e8dcc6] py-16 px-6 lg:px-20">
-
-      {/* Top Section */}
       <div className="grid md:grid-cols-2 gap-12 items-center">
-
-        {/* Left Content */}
         <div>
-          <h2 className="text-4xl font-serif mb-4">Our Story</h2>
-
+          <h2 className="text-4xl font-serif mb-4 text-[#7a4b2c]">Our Story</h2>
+          <h3>More Than Jewelry — It’s an Emotion</h3>
           <p className="text-gray-600 mb-4">
-            Demesne far hearted supposed venture and excited to see had had.
-            Dependent on so extremely delivered by. Yet no jokes worse her why.
+            Jewellery is more than an accessory — it carries memories,
+            confidence, and a story of its own. At Jewels by Dhriti, every piece
+            is chosen to celebrate beauty, tradition, and individuality.
           </p>
 
           <p className="text-gray-600 mb-8">
-            Bed one supposing breakfast day fulfilled off depending questions.
-            Whatever boy her exertion his extended.
+            Our designs are meant to make every woman feel radiant, confident,
+            and truly special. Whether it’s for a celebration or a moment of
+            self-love, jewellery should reflect who you are. Because when you
+            wear the right piece, it’s not just jewellery — it’s an emotion. ✨
           </p>
 
           {/* Stats */}
@@ -44,7 +43,7 @@ const About = () => {
         {/* Right Image */}
         <div className="w-[60%]">
           <img
-            style={{width:"300px"}}
+            style={{ width: "300px" }}
             // src={img1}
             alt="Jewelry"
             className="rounded-xl w-full object-cover"
@@ -54,7 +53,6 @@ const About = () => {
 
       {/* Bottom Cards */}
       <div className="grid md:grid-cols-4 gap-6 mt-16">
-
         <div className="bg-white rounded-lg p-8 text-center shadow-sm">
           <Truck className="mx-auto mb-4" size={32} />
           <h3 className="text-lg font-semibold mb-2">FREE SHIPPING</h3>
@@ -73,9 +71,7 @@ const About = () => {
 
         <div className="bg-white rounded-lg p-8 text-center shadow-sm">
           <BadgeCheck className="mx-auto mb-4" size={32} />
-          <h3 className="text-lg font-semibold mb-2">
-            100% QUALITY GUARANTEE
-          </h3>
+          <h3 className="text-lg font-semibold mb-2">100% QUALITY GUARANTEE</h3>
           <p className="text-gray-500 text-sm">
             We Ensure Top Quality In Every Product We Deliver.
           </p>
@@ -83,17 +79,14 @@ const About = () => {
 
         <div className="bg-white rounded-lg p-8 text-center shadow-sm">
           <CreditCard className="mx-auto  mb-4" size={32} />
-        <h3 className="text-lg font-semibold mb-2">
-          SECURE PAYMENT
-        </h3>
-        <p className="text-gray-500 text-sm mt-1">
-          SSL Encryption For Secure Transaction & Personal Data
-        </p>
+          <h3 className="text-lg font-semibold mb-2">SECURE PAYMENT</h3>
+          <p className="text-gray-500 text-sm mt-1">
+            SSL Encryption For Secure Transaction & Personal Data
+          </p>
         </div>
-
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

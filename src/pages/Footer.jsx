@@ -82,7 +82,7 @@ const Footer = () => {
 
       {/* Bottom Text */}
       <div className="mt-10 text-center text-sm border-t border-yellow-700 pt-4">
-        © 2026, JEWELS BY DHRITI Powered by<b> Kavya Reddy</b>
+        © 2026, JEWELS BY DHRITI Designed by<b> AK Reddy </b>
       </div>
     </footer>
   );

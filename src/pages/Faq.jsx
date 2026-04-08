@@ -12,17 +12,17 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: "How do I create an account?",
+      question: "My package is lost, what should I do?",
       answer:
         'Click the "Sign Up" button in the top right corner and follow the registration process.',
     },
     {
-      question: "I forgot my password. What should I do?",
+      question: "Can I cancel/change my order?",
       answer:
         'Click on "Forgot Password" on the login page and follow the instructions sent to your email.',
     },
     {
-      question: "How do I update my profile information?",
+      question: "What should I do if my order is damaged or missing an item?",
       answer:
         'Go to "My Account" settings and select "Edit Profile" to make changes.',
     },

@@ -8,3 +8,5 @@ export {default as SingleProduct} from "./SingleProduct";
 export {default as CheckOut} from "./CheckOut"
 export {default as PrivacyPolicy} from "./PrivacyPolicy";
 export {default as Faq} from "./Faq"
+export {default as CustomerReview} from "./CustomerReview";
+export {default as Shop} from "./Shop";

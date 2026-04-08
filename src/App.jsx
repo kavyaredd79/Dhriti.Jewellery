@@ -11,6 +11,8 @@ import {
   CheckOut,
   PrivacyPolicy,
   Faq,
+  CustomerReview,
+  Shop,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
       {
         path:"faq",
         element: <Faq />
+      },
+      {
+        path:"customerreview",
+        element: <CustomerReview />
+      },
+      {
+        path:"shop",
+        element: <Shop />
       },
       {
         path:"products/:id",
